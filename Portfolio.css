@@ -1,0 +1,146 @@
+.navigation-menu {
+  list-style-type: none;
+  display: flex;
+  text-decoration: underline;
+  margin: 0;
+}
+
+.navigation-item{
+  margin: 10px;
+}
+
+header{
+  background-color: #722972;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 90px;
+}
+
+body{
+  margin: 0;
+  background-color: #888;
+  font-family: sans-serif;
+}
+
+.introduction-picture img{
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.introduction-text{
+  flex-basis: 60%;
+  padding: 20px;
+}
+
+.introduction-text hr{
+  height: 2px;
+  background-color: white;
+  border: none;
+}
+
+main{
+  margin: 0px 90px;
+}
+
+.intoduction-section{
+  display: flex;
+  justify-content: space-between;
+  background-color: #aaa;
+  color: white;
+  padding: 20px;
+}
+
+a{
+    color: white;
+    font-size: 10px;
+}
+
+
+.portfolio-section{
+  background-color: white;
+}
+
+.portfolio-image{
+  margin: 0px;
+}
+
+.portfolio-image img{
+  margin: 10px;
+}
+
+.contact-section{
+  background-color: white;
+  color: #888;
+}
+
+p{
+  font-size: 15px;
+}
+
+.contact-form-section{
+  display: flex;
+}
+.contact-form{
+  padding: 5px 20px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 60%;
+}
+
+.contact-information{
+  padding: 5px 20px;
+}
+
+.form-field{
+  border: none;
+  border-bottom: 1px solid #cfcfcf;
+  margin: 10px;
+}
+
+.contact-form-section textarea{
+  height: 90px;
+}
+
+hr{
+  margin: 0;
+}
+
+.contact-title, .portfolio-title{
+  padding: 30px;
+  color: #888;
+  text-align: center;
+  margin: 0;
+}
+
+.seperator{
+    height: 2px;
+    background-color: #888;
+    margin: 0px 150px;
+
+}
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  background-color: #aaa;
+  color: white;
+}
+span{
+  color: #722972;
+  text-decoration: underline;
+}
+
+.about-page{
+  padding: 20px 30px;
+  text-align: center;
+}
+
+.social-media{
+  padding: 20px 30px;
+  text-align: center;
+}
+
+footer h2{
+  font-size: 16px;
+  font-weight: bold;
+}
